@@ -1,0 +1,18 @@
+<% include ../partials/top %>
+
+<h1 class="text-center" style="margin:40px 0">Add a new campground!!</h1>
+<div style="width:30%; margin: 0 auto;" class="d-flex flex-wrap justify-content-center">
+    <form action="/campgrounds" method="post" class="from-group" style="width: 100%;">
+        
+            <input type="text" name="name" placeholder="name" class="form-control" style=" margin-bottom:10px;"></input>
+            <input type="text" name="img" placeholder="imgae url" class="form-control" style=" margin-bottom:10px;"></input>
+            <input type="text" name="descriptions" placeholder="descriptions" class="form-control" style=" margin-bottom:10px;"></input>
+            <button class="btn btn-primary btn-block" style=" margin-bottom:10px;">Submit!!</button>
+        
+    </form>
+    <a href="/campgrounds">Back</a>
+</div>
+
+
+
+<% include ../partials/buttom %>
